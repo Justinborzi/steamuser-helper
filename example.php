@@ -6,10 +6,10 @@ include "assets/SteamHelper.php";
 use SteamFunctions\SteamHelper;
 
 // Create new object with API KEY
-$SteamUser = new SteamHelper('F58F1A19E8CE9D03B1613783B185C829');
+$SteamUser = new SteamHelper('APIKEY');
 
 // Call the object and method
-$data = $SteamUser->getPlayerInfo('76561198125156253');
+$data = $SteamUser->getPlayerInfo('STEAMID');
 
 // Output the formatted data
 echo "<pre>";
